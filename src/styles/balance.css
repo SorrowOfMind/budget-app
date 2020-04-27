@@ -1,0 +1,26 @@
+.balance {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+}
+
+.balance__title {
+    font-weight: 700;
+}
+
+.balance__amount {
+    font-size: 5rem;
+}
+
+.balance__indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}

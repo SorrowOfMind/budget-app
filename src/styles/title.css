@@ -1,0 +1,9 @@
+.header__title {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.header__title > span {
+    color: #FF8900;
+    font-weight: 700;
+}
