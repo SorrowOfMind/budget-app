@@ -4,7 +4,7 @@ import Title from './components/Title';
 import Balance from "./components/Balance";
 import AddTransaction from './components/AddTransaction';
 import Chart from './components/Chart';
-import ItemList from './components/ItemList';
+import TransactionList from './components/TransactionList';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Balance />
         <Chart />
         <AddTransaction />
-        <ItemList />
+        <TransactionList />
       </main>
     </div>
   );

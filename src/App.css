@@ -8,10 +8,10 @@
   min-height: 600px;
   border-radius: 8px;
   overflow: hidden;
+  background-color: #171717;
 }
 
 .app-header, .app-main {
-  background-color: #171717;
   color: #fff;
   /* padding: 1rem; */
 }
