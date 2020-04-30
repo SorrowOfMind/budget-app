@@ -1,3 +1,28 @@
 .list-wrapper {
-    height: 100%;
+    overflow: auto;
+    height: 280px;
+}
+
+.list-item {
+    font-size: 1.6rem;
+    padding: 0.6rem 1rem;
+    text-align: left;
+    margin: .8rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.list-item > .list-number {
+    color: #FF8900;
+}
+
+.list-item > .list-amount {
+    float: right;
+}
+
+.positive {
+    color: #10B508;
+}
+
+.negative {
+    color: #DF2600;
 }

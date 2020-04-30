@@ -12,6 +12,7 @@
 
 .balance__amount {
     font-size: 5rem;
+    color: #fff;
 }
 
 .balance__indicator {
@@ -20,7 +21,12 @@
     align-items: center;
     width: 100px;
     height: 100px;
-    background-color: #fff;
     border-radius: 50%;
     color: #000;
+    background-color: #FF8900;;
+}
+
+.thumbs-up, .thumbs-down {
+    font-size: 3rem;
+    color: #171717;
 }
